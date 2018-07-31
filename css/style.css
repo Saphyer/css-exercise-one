@@ -1,14 +1,14 @@
-body
+body {
   font-size: 14px;
 }
 
 nav {
   background color: yellow;
   height: 100px;
-  margin-top: -10px;
-  position: fixed;
+  margin-top: 10px;
+  position: 100%
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -34,3 +34,10 @@ h3 {
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+/* added additional element to last three div elements */
+
+.element-orange {
+  background-color: orange;
+}
